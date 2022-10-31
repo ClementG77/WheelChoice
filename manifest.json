@@ -1,0 +1,28 @@
+{
+    "name": "Wheel of choices ",
+    "description": "Don't make any decision and let random choose for you!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["background",
+      "activeTab",
+      "contextMenus",
+      "tabs"],
+    "action": {
+        "default_popup": "wheel.html",
+        "default_icon": {
+          "16": "/image/casino-icon16.png",
+          "32": "/image/casino-icon32.png",
+          "48": "/image/casino-icon48.png",
+          "128": "/image/casino-icon128.png"
+        }
+      },
+      "icons": {
+        "16": "/image/casino-icon16.png",
+        "32": "/image/casino-icon32.png",
+        "48": "/image/casino-icon48.png",
+        "128": "/image/casino-icon128.png"
+      }
+  }

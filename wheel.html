@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css">
+    <script src='Winwheel.js'></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="TweenMax.min.js"></script>
+  </head>
+  <body >
+    <div >
+      <div>
+        <h3>Please choose on how many rounds you want to play</h3>
+        <label>
+          <input type="checkbox" class="radio" id="bo3" value="2" name="fooby[1][]" />Bo3</label>
+        <label>
+          <input type="checkbox" class="radio" id="bo5" value="3" name="fooby[1][]" />Bo5</label>
+        <label>
+          <input type="checkbox" class="radio" id="bo7" value="4" name="fooby[1][]" />Bo7</label>
+      </div>
+      <div>
+        Please writte your different choices : <input type="text" id="myText">
+      </div>
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div class="power_controls">
+                            <br />
+                            <img id="spin_button" src="image/spin_off.png" alt="Spin" />
+                            <br /><br />
+                        </div>
+                    </td>
+                    <td width="438" height="582" class="the_wheel" >
+                        <canvas id="canvas" width="434" height="434">
+                        </canvas>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
